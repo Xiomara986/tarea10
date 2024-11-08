@@ -1,0 +1,58 @@
+#contenedor{
+    display: grid;
+    padding: 10px;
+    border: 1px solid gray;
+    height: 400px;
+    grid-template-areas: "uno dos dos tres"
+                        "uno cinco siete cuatro"
+                        "uno ocho seis cuatro";
+    gap:10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: "Montserrat", sans-serif;   
+}
+h1{
+    font-family: "Montserrat", sans-serif;   
+    font-size: 40px;
+    text-align: center;
+    background-color: aliceblue;
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+.uno{
+    background-color: green;
+    grid-area: uno;
+}
+.dos{
+    background-color: green;
+    grid-area: dos;
+}
+.tres{
+    background-color: red;
+    grid-area: tres;
+}
+.cuatro{
+    background-color: green;
+    grid-area: cuatro;
+}
+.cinco{
+    background-color: rgb(255, 187, 0);
+    grid-area: cinco;
+}
+.seis{
+    background-color: rgb(255, 187, 0);
+    grid-area: seis;
+}
+.siete{
+    background-color: red;
+    grid-area: siete;
+}
+.ocho{
+    background-color: red;
+    grid-area: ocho;
+}
